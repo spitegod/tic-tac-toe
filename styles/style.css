@@ -1,0 +1,30 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #646464;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(5, 100px);
+    gap: 10px;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    border: 3px solid rgb(133, 133, 133);
+    border-radius: 15px;
+    font-size: 3em;
+    text-align: center;
+    line-height: 100px;
+    font-family: 'Comic Sans MS', cursive;
+    font-weight: bold;
+    font-size: 3em;
+    color: #d5d4d4;
+  }
+  
